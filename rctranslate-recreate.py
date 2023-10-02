@@ -10,7 +10,7 @@
 from common import get_filename
 from common import create_dir
 from common import SEPARATOR_COPYPASTE,WORK_DIRECTORY
-import time
+
 
 # libraries
 import html
@@ -20,6 +20,7 @@ import sys
 from io import BytesIO
 import re
 import time
+
 
 #replace the element with new text translated
 #not prefect with html tags : they are encoded in final xml
