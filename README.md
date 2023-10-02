@@ -1,6 +1,6 @@
 # String Translator for Android strings.xml
 
-**rctranslate** is a tool designed to facilitate the translation of Android strings.xml files by providing a convenient way to batch-translate strings using Google Translate. If you've ever tried translating a large number of expressions in your Android project, you might have encountered issues where Google displays a captcha page, rendering automated translation impractical. This is where rctranslate comes to the rescue, offering a manual translation approach that allows you to efficiently handle numerous translations, potentially resulting in better context-aware translations.
+**hTranslateString** is a tool designed to facilitate the translation of Android strings.xml files by providing a convenient way to batch-translate strings using Google Translate. If you've ever tried translating a large number of expressions in your Android project, you might have encountered issues where Google displays a captcha page, rendering automated translation impractical. This is where rctranslate comes to the rescue, offering a manual translation approach that allows you to efficiently handle numerous translations, potentially resulting in better context-aware translations.
 
 ## Prerequisites
 
