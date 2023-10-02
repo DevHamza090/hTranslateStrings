@@ -85,7 +85,7 @@ print("nb string translated found = " + str(len(tabAllString)))
 
 #same parse like in rctranslate.py
 for i in range(len(root)):
-    time.sleep(1)
+    time.sleep(1.5)
     isTranslatable=root[i].get('translatable')
     if(root[i].tag=='string') & (isTranslatable!='false'):
         #translate element
