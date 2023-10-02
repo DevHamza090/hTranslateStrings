@@ -22,6 +22,7 @@ import re
 import time
 
 
+
 #replace the element with new text translated
 #not prefect with html tags : they are encoded in final xml
 def update_element(parent, elem, txt):
