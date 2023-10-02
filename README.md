@@ -1,6 +1,6 @@
 # String Translator for Android strings.xml
 
-**hTranslateString** is a tool designed to facilitate the translation of Android strings.xml files by providing a convenient way to batch-translate strings using Google Translate. If you've ever tried translating a large number of expressions in your Android project, you might have encountered issues where Google displays a captcha page, rendering automated translation impractical. This is where rctranslate comes to the rescue, offering a manual translation approach that allows you to efficiently handle numerous translations, potentially resulting in better context-aware translations.
+**hTranslateString** is a tool designed to facilitate the translation of Android strings.xml files by providing a convenient way to batch-translate strings using Google Translate. If you've ever tried translating a large number of expressions in your Android project, you might have encountered issues where Google displays a captcha page, rendering automated translation impractical. This is where htranslate comes to the rescue, offering a manual translation approach that allows you to efficiently handle numerous translations, potentially resulting in better context-aware translations.
 
 ## Prerequisites
 
@@ -10,18 +10,18 @@ Before you get started, ensure you have the following prerequisite installed:
 
 ## How it Works
 
-Here's a step-by-step guide on how to use rctranslate for translating your Android strings.xml files:
+Here's a step-by-step guide on how to use htranslate for translating your Android strings.xml files:
 
 ### 1. Original File
 
-Begin by copying your `strings.xml` file into the project directory where rctranslate is located.
+Begin by copying your `strings.xml` file into the project directory where htranslate is located.
 
 ### 2. Create Flat Files to be Translated
 
 Use the following command to parse your `strings.xml` and generate the necessary files for translation:
 
 ```bash
-python3 rctranslate.py
+python3 htranslate.py
 ```
 
 This step will:
@@ -42,14 +42,14 @@ After obtaining the translations from Google Translate, paste them into the corr
 To finalize the process and generate the translated `strings.xml` file for your Android project, use the following command:
 
 ```bash
-python3 rctranslate-recreate.py
+python3 htranslate-recreate.py
 ```
 
 This will generate the `strings-translated.xml` file (by default) containing the translated data.
 
 The generated files can be found in the "work" directory within the project directory.
 
-Enjoy the convenience of translating your Android strings.xml files with rctranslate!
+Enjoy the convenience of translating your Android strings.xml files with htranslate!
 
 ---
 
