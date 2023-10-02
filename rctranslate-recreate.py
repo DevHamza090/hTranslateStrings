@@ -93,7 +93,7 @@ for i in range(len(root)):
             isNotEnoughTranslatedStrings = True
         else:
             update_element(root, root[i], tabAllString[iElement])
-            print(tabAllString[iElement] +"  Done")
+
         iElement+= 1
 
     if(root[i].tag=='string-array'):
@@ -105,9 +105,10 @@ for i in range(len(root)):
                 else:
                     #translate element
                     update_element(root[i], root[i][j], tabAllString[iElement])
-                    print(tabAllString[iElement] + "Done")
+
                 iElement+= 1
-            
+
+    print(tabAllString[iElement] +"  Done")        
 
 if(isNotEnoughTranslatedStrings):
     print("Error : not enough translated strings : "+ str(len(tabAllString)))
