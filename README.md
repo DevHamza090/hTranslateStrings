@@ -6,7 +6,7 @@
 
 Before you get started, ensure you have the following prerequisite installed:
 
-- Python 3
+- Python 
 
 ## How it Works
 
